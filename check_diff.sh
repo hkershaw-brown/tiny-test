@@ -3,19 +3,22 @@
 
 new=mpas_test.new
 master=mpas_test.master
-manhat=mpas_test.manhatten
+manhat=mpas_test.manhattan
+
+run1=$new
+run2=$manhat
 
 
 # text files
 declare -a output=("obs_seq.final")
  
 for file in ${output[@]}; do
-   diff $new/$file $master/$file 
+   diff $run1/$file $run2/$file 
 done
 
 # netcdf files
 declare -a output=("preassim_member_0001.nc" "preassim_mean.nc" "preassim_sd.nc" "output_sd.nc" "output_mean.nc")
 
 for file in ${output[@]}; do
-   nccmp -d $new/$file $master/$file 
+   nccmp -d $run1/$file $run2/$file 
 done
