@@ -1,0 +1,53 @@
+ obs_sequence
+obs_kind_definitions
+          29
+           1 RADIOSONDE_U_WIND_COMPONENT    
+           2 RADIOSONDE_V_WIND_COMPONENT    
+           5 RADIOSONDE_TEMPERATURE         
+           6 RADIOSONDE_SPECIFIC_HUMIDITY   
+          16 ACARS_U_WIND_COMPONENT         
+          17 ACARS_V_WIND_COMPONENT         
+          18 ACARS_TEMPERATURE              
+          20 MARINE_SFC_U_WIND_COMPONENT    
+          21 MARINE_SFC_V_WIND_COMPONENT    
+          22 MARINE_SFC_TEMPERATURE         
+          23 MARINE_SFC_SPECIFIC_HUMIDITY   
+          25 LAND_SFC_U_WIND_COMPONENT      
+          26 LAND_SFC_V_WIND_COMPONENT      
+          27 LAND_SFC_TEMPERATURE           
+          28 LAND_SFC_SPECIFIC_HUMIDITY     
+          30 SAT_U_WIND_COMPONENT           
+          31 SAT_V_WIND_COMPONENT           
+          33 AIRS_TEMPERATURE               
+          34 AIRS_SPECIFIC_HUMIDITY         
+          36 RADIOSONDE_SURFACE_ALTIMETER   
+          38 MARINE_SFC_ALTIMETER           
+          39 LAND_SFC_ALTIMETER             
+          40 METAR_ALTIMETER                
+          74 METAR_U_10_METER_WIND          
+          75 METAR_V_10_METER_WIND          
+          76 METAR_TEMPERATURE_2_METER      
+          77 METAR_SPECIFIC_HUMIDITY_2_METER
+          83 GPSRO_REFRACTIVITY             
+         210 GOES_16_ABI_RADIANCE           
+  num_copies:            1  num_qc:            1
+  num_obs:       1  max_num_obs:       1
+NCEP BUFR observation                                           
+NCEP QC index                                                   
+  first:            1  last:       1
+ OBS            1
+   2.986677    
+  0.0000000E+00
+      -1      -1          -1
+obdef
+loc3d
+     4.587779998779297        0.5938354134559631         35000.00000000000      2
+kind
+         210
+ visir
+   147.1844       46.88828      -888888.0      -888888.0    
+           4          16          44           2
+  -888888.0    
+      105005
+ 43072     152809
+  6.2500000E-02
